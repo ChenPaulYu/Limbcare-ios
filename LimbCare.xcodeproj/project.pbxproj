@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAE3C464766B4BF45C3440E3 /* Pods_LimbCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE590D9595F71F04D1D6124 /* Pods_LimbCare.framework */; };
 		CB321B991ED07B4700A4639E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321B981ED07B4700A4639E /* AppDelegate.swift */; };
 		CB321B9B1ED07B4700A4639E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321B9A1ED07B4700A4639E /* ViewController.swift */; };
 		CB321B9E1ED07B4700A4639E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB321B9C1ED07B4700A4639E /* Main.storyboard */; };
 		CB321BA01ED07B4700A4639E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB321B9F1ED07B4700A4639E /* Assets.xcassets */; };
 		CB321BA31ED07B4700A4639E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB321BA11ED07B4700A4639E /* LaunchScreen.storyboard */; };
+		CB98BDF31F03897C00E7A7C6 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98BDF21F03897C00E7A7C6 /* MenuTableViewController.swift */; };
+		CB98BDF51F038A9600E7A7C6 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98BDF41F038A9600E7A7C6 /* MenuTableViewCell.swift */; };
+		CB98BDFD1F03E1A300E7A7C6 /* questionaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98BDFC1F03E1A200E7A7C6 /* questionaireViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB321B951ED07B4600A4639E /* BLE_Proecjt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE_Proecjt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE590D9595F71F04D1D6124 /* Pods_LimbCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LimbCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F078B03669A34CB824552E /* Pods-LimbCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimbCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimbCare/Pods-LimbCare.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D65D5794B59B44638F0F90 /* Pods-LimbCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimbCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimbCare/Pods-LimbCare.release.xcconfig"; sourceTree = "<group>"; };
+		CB321B951ED07B4600A4639E /* LimbCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimbCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB321B981ED07B4700A4639E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB321B9A1ED07B4700A4639E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB321B9D1ED07B4700A4639E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB321B9F1ED07B4700A4639E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB321BA21ED07B4700A4639E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB321BA41ED07B4700A4639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB98BDF21F03897C00E7A7C6 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		CB98BDF41F038A9600E7A7C6 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		CB98BDFC1F03E1A200E7A7C6 /* questionaireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionaireViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +39,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE3C464766B4BF45C3440E3 /* Pods_LimbCare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC8AF9C5A6CE68CDEEBB85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE590D9595F71F04D1D6124 /* Pods_LimbCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB321B8C1ED07B4600A4639E = {
 			isa = PBXGroup;
 			children = (
 				CB321B971ED07B4600A4639E /* BLE_Proecjt */,
 				CB321B961ED07B4600A4639E /* Products */,
+				E7EE086AC4FD28C61E288868 /* Pods */,
+				3DC8AF9C5A6CE68CDEEBB85A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CB321B961ED07B4600A4639E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB321B951ED07B4600A4639E /* BLE_Proecjt.app */,
+				CB321B951ED07B4600A4639E /* LimbCare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +77,10 @@
 			children = (
 				CB321B981ED07B4700A4639E /* AppDelegate.swift */,
 				CB321B9A1ED07B4700A4639E /* ViewController.swift */,
+				CB98BDF21F03897C00E7A7C6 /* MenuTableViewController.swift */,
+				CB98BDF41F038A9600E7A7C6 /* MenuTableViewCell.swift */,
 				CB321B9C1ED07B4700A4639E /* Main.storyboard */,
+				CB98BDFC1F03E1A200E7A7C6 /* questionaireViewController.swift */,
 				CB321B9F1ED07B4700A4639E /* Assets.xcassets */,
 				CB321BA11ED07B4700A4639E /* LaunchScreen.storyboard */,
 				CB321BA41ED07B4700A4639E /* Info.plist */,
@@ -64,24 +88,36 @@
 			path = BLE_Proecjt;
 			sourceTree = "<group>";
 		};
+		E7EE086AC4FD28C61E288868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51F078B03669A34CB824552E /* Pods-LimbCare.debug.xcconfig */,
+				A6D65D5794B59B44638F0F90 /* Pods-LimbCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB321B941ED07B4600A4639E /* BLE_Proecjt */ = {
+		CB321B941ED07B4600A4639E /* LimbCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB321BA71ED07B4700A4639E /* Build configuration list for PBXNativeTarget "BLE_Proecjt" */;
+			buildConfigurationList = CB321BA71ED07B4700A4639E /* Build configuration list for PBXNativeTarget "LimbCare" */;
 			buildPhases = (
+				06FEFC2BBC1251F5A44B02FA /* [CP] Check Pods Manifest.lock */,
 				CB321B911ED07B4600A4639E /* Sources */,
 				CB321B921ED07B4600A4639E /* Frameworks */,
 				CB321B931ED07B4600A4639E /* Resources */,
+				1C7AB10A2951D32D31CF088A /* [CP] Embed Pods Frameworks */,
+				707AE1101D7E83BC2627BB63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLE_Proecjt;
+			name = LimbCare;
 			productName = BLE_Proecjt;
-			productReference = CB321B951ED07B4600A4639E /* BLE_Proecjt.app */;
+			productReference = CB321B951ED07B4600A4639E /* LimbCare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB321B901ED07B4600A4639E /* Build configuration list for PBXProject "BLE_Proecjt" */;
+			buildConfigurationList = CB321B901ED07B4600A4639E /* Build configuration list for PBXProject "LimbCare" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB321B941ED07B4600A4639E /* BLE_Proecjt */,
+				CB321B941ED07B4600A4639E /* LimbCare */,
 			);
 		};
 /* End PBXProject section */
@@ -132,12 +168,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06FEFC2BBC1251F5A44B02FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C7AB10A2951D32D31CF088A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LimbCare/Pods-LimbCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707AE1101D7E83BC2627BB63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LimbCare/Pods-LimbCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB321B911ED07B4600A4639E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB98BDFD1F03E1A300E7A7C6 /* questionaireViewController.swift in Sources */,
 				CB321B9B1ED07B4700A4639E /* ViewController.swift in Sources */,
+				CB98BDF31F03897C00E7A7C6 /* MenuTableViewController.swift in Sources */,
+				CB98BDF51F038A9600E7A7C6 /* MenuTableViewCell.swift in Sources */,
 				CB321B991ED07B4700A4639E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +346,7 @@
 		};
 		CB321BA81ED07B4700A4639E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F078B03669A34CB824552E /* Pods-LimbCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYT6R4XE36;
@@ -272,6 +360,7 @@
 		};
 		CB321BA91ED07B4700A4639E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D65D5794B59B44638F0F90 /* Pods-LimbCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYT6R4XE36;
@@ -286,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB321B901ED07B4600A4639E /* Build configuration list for PBXProject "BLE_Proecjt" */ = {
+		CB321B901ED07B4600A4639E /* Build configuration list for PBXProject "LimbCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB321BA51ED07B4700A4639E /* Debug */,
@@ -295,13 +384,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB321BA71ED07B4700A4639E /* Build configuration list for PBXNativeTarget "BLE_Proecjt" */ = {
+		CB321BA71ED07B4700A4639E /* Build configuration list for PBXNativeTarget "LimbCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB321BA81ED07B4700A4639E /* Debug */,
 				CB321BA91ED07B4700A4639E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
